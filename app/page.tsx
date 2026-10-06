@@ -2,7 +2,7 @@
 export default function Home() {
   const aff = process.env.NEXT_PUBLIC_AFFILIATE_LINK || "https://deriv.com";
   const appId = process.env.NEXT_PUBLIC_DERIV_APP_ID || "34B11hJTr4ta2X3zUN7MN";
-    const login = `https://oauth.deriv.com/oauth2/authorize?app_id=${appId}&l=EN&redirect_uri=https://apollo-copy-indol.vercel.app/api/deriv-callback`;
+      const login = "https://oauth.deriv.com/oauth2/authorize?app_id=34B11hJTr4ta2X3zUN7MN&l=EN&redirect_uri=https://apollo-copy-indol.vercel.app/api/deriv-callback";
   return (
     <div style={{background:"black", color:"white", minHeight:"100vh", padding:"20px", textAlign:"center"}}>
       <h1 style={{color:"red", fontWeight:"bold", fontSize:"30px"}}>APOLLO COPY</h1>

@@ -1,7 +1,7 @@
 "use client";
 export default function Home() {
   const aff = process.env.NEXT_PUBLIC_AFFILIATE_LINK || "https://deriv.com";
-  const appId = process.env.NEXT_PUBLIC_DERIV_APP_ID || "1089";
+  const appId = process.env.NEXT_PUBLIC_DERIV_APP_ID || "34Bl1hJTr4ta2X3zUN7MN";
   const login = `https://oauth.deriv.com/oauth2/authorize?app_id=${appId}`;
   return (
     <div style={{background:"black", color:"white", minHeight:"100vh", padding:"20px", textAlign:"center"}}>
